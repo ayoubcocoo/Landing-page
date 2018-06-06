@@ -1,0 +1,18 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#section-prop {
+    padding-block-end: 28.3%;
+    text-align: center;
+    background: url("img/sweet04.svg") no-repeat;
+    background-size: cover;
+}
+
+#section-prop .head-text{
+    margin-top: 10%;
+    color: white;
+}
