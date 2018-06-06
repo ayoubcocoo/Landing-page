@@ -5,15 +5,17 @@ html {
     padding: 0;
 }
 
-#section-prop {
+header#section-prop {
     padding-block-end: 28.3%;
     text-align: center;
-    background: url("img/sweet04.svg") no-repeat;
+    background: url("img/sweet04.svg");
+    background-position: left top;
+    background-repeat: no-repeat;
     background-size: cover;
+    z-index: 2;
 }
 
-#section-prop .head-text{
-    margin-top: 10%;
-    color: white;
+header#section-prop .head-text img {
+    z-index: 1;
 }
 
