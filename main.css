@@ -6,16 +6,33 @@ html {
 }
 
 header#section-prop {
-    padding-block-end: 28.3%;
+    color: white;
     text-align: center;
     background: url("img/sweet04.svg");
     background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 2;
 }
 
-header#section-prop .head-text img {
-    z-index: 1;
+header#section-prop .head-text {
+    margin-top: 4%;
 }
 
+header .head-text img {
+    height: 466px;
+    width: auto;
+}
+
+#section-prop {
+    height: 100%;
+    color: white;
+    text-align: center;
+    background: url("img/back03.jpg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section-prop h1,{
+
+}
