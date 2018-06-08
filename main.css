@@ -12,6 +12,8 @@ header#section-prop {
     background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom-left-radius: 50% 10%;
+    border-bottom-right-radius: 50% 10%;
 }
 
 header#section-prop .head-text {
@@ -31,8 +33,4 @@ header .head-text img {
     background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#section-prop h1,{
-
 }
