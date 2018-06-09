@@ -14,23 +14,33 @@ header#section-prop {
     background-size: cover;
     border-bottom-left-radius: 50% 10%;
     border-bottom-right-radius: 50% 10%;
+    z-index: 1;
+    margin-bottom: -5vw;
+    position: relative;
+    
 }
 
 header#section-prop .head-text {
     margin-top: 4%;
 }
 
-header .head-text img {
+.image-prop {
     height: 466px;
     width: auto;
 }
 
-#section-prop {
+#section-1 {
     height: 100%;
     color: white;
     text-align: center;
-    background: url("img/back03.jpg");
     background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
+    background: white;
+    color: black;
+    z-index: 2;
+}
+
+#section-1 h1{
+    padding-top: 143px;
 }
