@@ -1,46 +1,61 @@
 body,
 html {
+    @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
-header#section-prop {
-    color: white;
-    text-align: center;
-    background: url("img/sweet04.svg");
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-bottom-left-radius: 50% 10%;
-    border-bottom-right-radius: 50% 10%;
-    z-index: 1;
-    margin-bottom: -5vw;
-    position: relative;
-    
-}
-
-header#section-prop .head-text {
-    margin-top: 4%;
-}
-
-.image-prop {
-    height: 466px;
-    width: auto;
-}
-
-#section-1 {
+#head{ 
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 72%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 18vw), 0 100%);
+    width: 100%;
     height: 100%;
-    color: white;
-    text-align: center;
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background: white;
-    color: black;
-    z-index: 2;
+    background-color: #FFC009;
+    margin-bottom: -18vw;
+
+ 
 }
 
-#section-1 h1{
-    padding-top: 143px;
+#head .clip .logo {
+    padding-top: 35px;
+    padding-bottom: 70px;
+    margin-left: 50px;
+    color: white;
+    font-size: 34px;
+    display: block;
+    font-weight: bold;
+}
+
+.image{
+    float: left;
+    position: absolute;
+    right: 107px;
+    top: 126px;
+}
+#head .clip{
+    margin-left: 7%;
+    float: left;
+    width: 50%;
+    color: white;
+    font-size: 90px;
+}
+
+#head .clip h1 {
+    font-family: 'Raleway', sans-serif;;
+    font-size: 67.3px;
+    letter-spacing: 0.7px;
+}
+#head .clip h2{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 19px;
+    width: 82%;
+}
+
+#head .clip h1,#head .clip h2{
+    margin-left: 50px;
+    
+} 
+#special {
+    padding-block-start: 20%;
 }
