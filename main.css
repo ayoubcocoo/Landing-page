@@ -1,61 +1,104 @@
-body,
-html {
-    @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
+   /* Google Fonts "Source Sans Pro" */
 
-#head{ 
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 72%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 18vw), 0 100%);
-    width: 100%;
-    height: 100%;
-    background-color: #FFC009;
-    margin-bottom: -18vw;
+   @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+   body,
+   html {
+       height: 100%;
+       margin: 0;
+       padding: 0;
+   }
 
- 
-}
+   #head {
+       -webkit-clip-path: polygon(0 0, 100% 0, 100% 72%, 0 100%);
+       clip-path: polygon(0 0, 100% 0, 100% calc(100% - 18vw), 0 100%);
+       width: 100%;
+       height: 100%;
+       background-color: #FFC009;
+       margin-bottom: -18vw;
+   }
 
-#head .clip .logo {
-    padding-top: 35px;
-    padding-bottom: 70px;
-    margin-left: 50px;
-    color: white;
-    font-size: 34px;
-    display: block;
-    font-weight: bold;
-}
+   #head .clip .logo {
+       padding-top: 35px;
+       padding-bottom: 70px;
+       margin-left: 50px;
+       color: white;
+       font-size: 34px;
+       display: block;
+       font-weight: bold;
+   }
 
-.image{
-    float: left;
-    position: absolute;
-    right: 107px;
-    top: 126px;
-}
-#head .clip{
-    margin-left: 7%;
-    float: left;
-    width: 50%;
-    color: white;
-    font-size: 90px;
-}
+   .image {
+       float: left;
+       position: absolute;
+       right: 107px;
+       top: 126px;
+   }
 
-#head .clip h1 {
-    font-family: 'Raleway', sans-serif;;
-    font-size: 67.3px;
-    letter-spacing: 0.7px;
-}
-#head .clip h2{
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 19px;
-    width: 82%;
-}
+   #head .clip {
+       margin-left: 7%;
+       float: left;
+       width: 50%;
+       color: white;
+       font-size: 90px;
+   }
 
-#head .clip h1,#head .clip h2{
-    margin-left: 50px;
-    
-} 
-#special {
-    padding-block-start: 20%;
-}
+   #head .clip h1 {
+       font-family: 'Raleway', sans-serif;
+       ;
+       font-size: 67.3px;
+       letter-spacing: 0.7px;
+   }
+
+   #head .clip h2 {
+       font-family: 'Source Sans Pro', sans-serif;
+       font-size: 22px;
+       width: 82%;
+   }
+
+   #head .clip h1,
+   #head .clip h2,
+   #help {
+       margin-left: 50px;
+   }
+
+   #help {
+       width: auto;
+       height: 50%;
+       /* position: relative;
+    top: 90%; */
+       /* left: 9%; */
+       transform: translateY(-50%);
+   }
+
+   #help h1 {
+       font-family: 'Raleway', sans-serif;
+       font-size: 48px;
+       letter-spacing: 0.5px;
+       margin: 40% auto auto 9%;
+   }
+
+   #special {
+       height: 100%;
+   }
+
+   #special .card {
+       width: 30rem;
+   }
+
+   #special .container .row .col .text-box {
+       width: 75%;
+   }
+
+   #special .container .row .col h3 {
+       font-family: 'Raleway', sans-serif;
+       font-size: 36px;
+       letter-spacing: 0.4px;
+   }
+
+   #special .container .row .col p {
+       font-family: 'Source Sans Pro';
+       font-size: 19px;
+       letter-spacing: 0.4px;
+       margin-top: 10px;
+       line-height: 1.35869;
+   }
