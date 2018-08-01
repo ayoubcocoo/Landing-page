@@ -152,4 +152,24 @@
     height: 100%;
    }
 
-   /* for saving */
+  #section-03 .animation video {
+    margin: 40% 55px;
+    width: 366px;
+    height: 560px;
+  }
+
+  #section-04 {
+    height: 100%;
+    margin-block-start: -3%;
+  }
+
+  #section-04 .text-project {
+      margin-block-end: 5%;
+  }
+
+  .ft {
+      background-image: url("img/mask_desktop-2.svg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100%;
+}
