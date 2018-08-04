@@ -27,11 +27,11 @@
        font-weight: bold;
    }
 
-   .image {
-       float: left;
-       position: absolute;
-       right: 107px;
-       top: 126px;
+   .image-phone .image {
+    float: left;
+    position: absolute;
+    right: 7px;
+    top: -260px;
    }
 
    #head .clip {
