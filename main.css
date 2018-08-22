@@ -63,10 +63,7 @@
 
    #help {
        width: auto;
-       height: 50%;
-       /* position: relative;
-    top: 90%; */
-       /* left: 9%; */
+       height: 33%;
        transform: translateY(-50%);
    }
 
@@ -136,6 +133,7 @@
    }
 
    #section-02 .descrip {
+       color: white;
        width: 50%;
        margin-top: 244px;
    }
